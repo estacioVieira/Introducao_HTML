@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form >
+        <!-- Text: inserir textos -->
+         <div>
+             <label for="name">Nome:</label>   
+             <input type="text" id="name" placeholder="Digite seu nome...">
+         </div>
+         <div>
+            <label for="pass">Senha</label>
+            <input type="password">
+         </div>
+         <!-- number: inserir numeros -->
+          <div>
+            <label for="age">Idade</label>
+            <input type="number" id="age" placeholder="Insira sua idade...">
+          </div>
+          <!-- email: aceita formato de e-mail -->
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Insira seu e-mail...">
+          </div>
+          <!-- checkbox: caixa de seleção -->
+          <div>
+            <label>Disciplinas:</label>
+            <br>
+            <input type="checkbox" checked> Informática Básica
+            <input type="checkbox" checked> Lógica de Programação
+            <input type="checkbox"> Arquitetura e Manutenção de Computadores 
+          </div>
+          <div>
+            <label>Turno:</label>
+            <br>
+            <input type="radio" name="turno" value="manhã"> Manhã
+            <input type="radio" name="turno" value="tarde"> Tarde
+            <input type="radio" name="turno" value="noite"> Noite
+          </div>
+          <div>
+            <label for="distance">Distância até a escola:</label>
+            <br>
+            <input type="range" min="1" max="10">km
+          </div>
+          <div>
+            <input type="reset" value="Apagar"> <input type="submit" value="Enviar">
+          </div>
+
+
+    </form>
+</body>
+</html>
